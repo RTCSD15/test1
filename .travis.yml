@@ -3,9 +3,8 @@ language: cpp
 compiler:
   - gcc
 
-
-before_script:
-#  - sudo apt-get install libcppunit-dev
+install:
+  - sudo apt-get install libcppunit-dev
 
 
 script:
